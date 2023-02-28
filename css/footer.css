@@ -1,0 +1,11 @@
+footer {
+    background-color: #213b7e;
+}
+
+.footer-inner {
+font-weight: 400;
+font-size: 20px;
+color: rgba(255, 255, 255, 0.5);
+text-align: center; /*ставит текст по центру*/
+padding: 18px 0; /*отступы внизу и сверху 18px*/
+}

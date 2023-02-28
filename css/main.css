@@ -1,0 +1,90 @@
+.main {
+    height: calc(100vh - 136px);
+    overflow-x: auto; /*добавился скрол по х. и футер норм*/
+    
+   
+}
+
+.main-inner {
+    /* padding-left: 194px; */
+    /* padding: 33px 0 0 194px; */
+    width: 100%;
+    max-width: 911px;
+    height: auto;
+    margin: 0 auto;
+    flex-grow: 1;
+    }    
+
+.main-img {
+    width: 100%;
+    max-width: 523px;
+    height: auto;
+    margin-bottom: 15px; /*отступ снизу*/
+}
+
+.main-item {
+    width: 100%;
+    position: relative; /*родительское позиционирование для "учимся вместе"*/
+    margin-bottom: 15px;
+    max-width: 635px;
+}
+
+.item-title {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 25px; /*размер шрифта*/
+}
+
+.item-description {
+    width: 100%;
+    max-width: 634px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+em {
+    color: rgba(207,85,16,1); 
+}
+
+.together {
+    position: absolute;/*распологается относительно main-item*/
+    right:-277px;
+    top: 40px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #646464;
+}
+
+/*About*/
+.video {
+    width: 820px;
+    height: 550px;
+}
+/*Contacts*/
+.map {
+    width: 1268px;
+    height: 370px;
+}
+.phone-number {
+    margin-top: 24px;
+    text-decoration: underline; /*подчеркнутый текст*/ 
+}
+.inframe {
+    display: flex;
+    justify-content: center;
+}
+
+/*Адаптив*/
+
+@media (max-width: 1140px){
+    .together {
+        right: -160px;
+    }
+}
+
+@media (max-width: 992px){
+    .together {
+        display: none;
+    }
+}
+

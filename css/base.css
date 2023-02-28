@@ -1,0 +1,22 @@
+.container {
+    max-width: 1300px;
+    margin: 0 auto; /*отступы сверху снизу по 0, слева саправа avto*/ 
+    flex-wrap: wrap;
+
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px; /*отспут вниз*/
+    margin-top: 25px; /*отспут сверху*/
+}
+
+.font-roboto {
+        font-family: 'Roboto', sans-serif;
+    
+}
+
+.font-lobster {
+    font-family: 'Lobster', cursive;
+}

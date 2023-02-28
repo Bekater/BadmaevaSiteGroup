@@ -1,0 +1,40 @@
+.students {
+  max-width: 1200px;
+  display: flex; 
+  letter-spacing: normal;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.student {
+  padding-left: 50px;
+  font-family: 'Roboto';
+  font-size: 20px;
+
+}
+
+.student-name {
+  display: block;
+  text-align: center;
+}
+
+.new-student {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: green;
+  color: #FFFFFF;
+  padding: 2px 6px 2px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;
+  top: -324px;
+  left: 118px;
+}
+
+.student-foto {
+  object-fit:cover; /*разместим наше изображение по центру относительно того объекта, который мы создадим*/
+}

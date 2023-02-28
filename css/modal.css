@@ -1,0 +1,83 @@
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: #00000075;
+  border: 1px solid #213B7E;
+  width: 100%;
+  max-width: 500px;
+  max-height: 418px;
+  background-color: #ffffff;
+  margin: 160px auto 0 auto;
+  padding: 26px 28px 50px;
+}
+
+.modal-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.modal-form>input {
+  width: 100%;
+  max-width: 500px;
+  min-height: 55px;
+  margin-bottom: 56px;
+  border: 1px solid #808080;
+}
+
+.close {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  border: 4px double #EA6113;
+  overflow: hidden;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+
+.login-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+
+.login-input {
+  width: 444px;
+  background-color: #FFFFFF;
+  border: 1px solid #808080;
+  font-size: 24px;
+  line-height: 28px;
+  color: #808080;
+  padding: 15px;
+}
+
+.login-password {
+  width: 444px;
+  background-color: #FFFFFF;
+  border: 1px solid #808080;
+  font-size: 24px;
+  line-height: 28px;
+  color: #808080;
+  padding: 15px;
+}
+
+.popup-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 152px;
+  min-height: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #EA5D21;
+  border: none;
+}
